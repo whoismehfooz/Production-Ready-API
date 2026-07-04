@@ -1,45 +1,39 @@
 # 🔐 Environment
-
 .env
 
 # 🐍 Python
-
-**pycache**/
-*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
 
 # 🧪 Virtual Environment
-
 venv/
 .venv/
 
 # 🗄️ Database
-
 *.db
 
 # 🧾 Logs
-
+logs/
 *.log
 
-# 🧰 IDE
+# 🧪 Testing
+.pytest_cache/
+.coverage
+htmlcov/
 
+# 📦 Build
+build/
+dist/
+*.egg-info/
+
+# 🧰 IDE
 .vscode/
 .idea/
 
 # 🐧 OS
-
 .DS_Store
 Thumbs.db
 
-# 📦 Build
-
-dist/
-build/
-*.egg-info/
-
-# 🧪 Cache
-
-.pytest_cache/
+# 🧠 Type checking
 .mypy_cache/
-
-logs/
-tests/
